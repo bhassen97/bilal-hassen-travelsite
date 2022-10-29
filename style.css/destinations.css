@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+header{
+    height: 50px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo__text{
+    color: #335576;
+    font-size: 25px;
+    padding-left: 7%;
+    margin-top: 10px;
+}
+
+
+.nav{
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.nav__item{
+    padding: 0 20px;
+    text-decoration: none;
+    content: '';
+}
+
+.nav__link{
+    padding:0 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav__link::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background: #DB7A4E;
+    transition:all .5s
+}
+.nav__link:hover:after{
+    width: 100%;
+}
+.greece__body{
+    background-image: url(../images/greece.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.greece__text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: white;
+    margin-left: 110px;
+    margin-bottom: 110px;
+    margin-top: 110px;
+    margin-right: 110px;
+    font-weight: 800;   
+}
+
+.Iceland__body{
+    background-image: url(../images/iceland.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Iceland__text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: white;
+    margin-left: 110px;
+    margin-bottom: 110px;
+    margin-top: 110px;
+    margin-right: 110px;
+    font-weight: 800;
+}
+
+body{
+    background-image: url(../images/hawaii.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.hawaii__text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: white;
+    margin-left: 110px;
+    margin-bottom: 110px;
+    margin-top: 110px;
+    margin-right: 110px;
+    font-weight: 800;
+   
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
+.card__1{
+    background: white;
+    width: 220px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.card__2{
+    background: white;
+    width: 220px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.card__3{
+    background: white;
+    width: 220px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.card__1 h2{
+   background-color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   font-weight: normal;
+   border-radius: 5px; 
+    
+}
+.card__1 h3{
+    background-color: #FEFAF5;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2; 
+}
+
+.card__1 h4{
+    background-color: #FEFAF5;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    font-size: 20px;
+    font-weight: normal; 
+    line-height: 2; 
+}
+
+.card__1 h5{
+    background-color: #FEFAF5;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: normal; 
+    line-height: 2; 
+}
+
+.card__1 h6{
+    background-color: #FEFAF5;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    font-size: 20px;
+    font-weight: normal; 
+    line-height: 2; 
+}
+
+.card__2 h2{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: normal;  
+    border-radius: 5px; 
+}
+
+.card__2 h3{
+    background-color: #FEFAF5;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2; 
+}
+
+.card__2 h4{
+    background-color: #FEFAF5;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2; 
+}
+
+.card__2 h5{
+    background-color: #FEFAF5;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2;  
+}
+
+.card__2 h6{
+    background-color: #FEFAF5;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2;    
+}
+
+.card__3 h2{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: normal;  
+    border-radius: 5px; 
+}
+
+.card__3 h3{
+    background-color: #FEFAF5;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2; 
+}
+
+.card__3 h4{
+    background-color: #FEFAF5;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2; 
+}
+
+.card__3 h5{
+    background-color: #FEFAF5;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2; 
+}
+
+.card__3 h5{
+    background-color: #FEFAF5;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2; 
+}
+
+.card__3 h6{
+    background-color: #FEFAF5;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2; 
+}
+
+.footer__container{
+    display: flex;
+   background-color: #FEFAF5;
+   min-height: 10vh;
+   margin-top: 400px;
+   padding-top: 50px;
+   
+   
+   
+}
+
+
+.footer__Contact{ 
+    flex-grow: 1;
+    margin-left: 325px;
+}
+
+.footer__hours{
+    flex-grow: 2;
+    justify-content: space-between;
+    
+   
+}
+
+.footer__social{
+    flex-grow: 1;
+    margin-right: 200px;
+}
+
+.footer__text{
+    line-height: 1.8;
+    word-spacing: 20px;
+}
+
+.footer__container h4{
+    color: #335576;
+    font-size: 20px;
+}
+
+.footer__para{
+    color: #DB7A4E;
+    font-size: 10px;
+    line-height: 20px;
+    
+}
+
+.footer__para--2{
+    color: #335576;
+    font-size: 10px;  
+    line-height: 1.8; 
+}
